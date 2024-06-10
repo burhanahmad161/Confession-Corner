@@ -1,0 +1,172 @@
+/* home.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+        color: #2d2d2d;
+}
+
+.homepage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+    color: red;
+}
+
+.success-stories,
+.search-matching,
+.confidentiality-tips,
+.subscription-info {
+    background-color: #ffa1a16c;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.success-stories h2,
+.search-matching h2,
+.subscription-info h2 {
+    color: red;
+}
+
+.success-stories p,
+.search-matching p,
+.safety-privacy p,
+.dating-tips p,
+.subscription-info p {
+    margin-bottom: 15px;
+    font-size: 1.25em;
+    color: white;
+}
+
+.safety-tips,
+.privacy-policy,
+.profile-tips,
+.communication-tips,
+.date-tips,
+.premium-features,
+.subscription-info {
+    margin-top: 20px;
+}
+
+.safety-tips h3,
+.privacy-policy h3,
+.profile-tips h3,
+.communication-tips h3,
+.date-tips h3,
+.premium-features h3,
+.subscription-info h3 {
+    color: #e70536e8;
+}
+
+.safety-tips ul,
+.privacy-policy ul,
+.profile-tips ul,
+.communication-tips ul,
+.date-tips ul,
+.premium-features ul,
+.subscription-info ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: white;
+}
+
+.safety-tips li,
+.privacy-policy li,
+.profile-tips li,
+.communication-tips li,
+.date-tips li,
+.premium-features li,
+.subscription-info li {
+    margin-bottom: 8px;
+    color: white;
+}
+
+.subscription-info a {
+    color: #e70536e8;
+    text-decoration: underline;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .homepage {
+        padding: 15px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .success-stories,
+    .search-matching,
+    .safety-privacy,
+    .subscription-info {
+        padding: 15px;
+    }
+
+    .success-stories h2,
+    .search-matching h2,
+    .safety-privacy h2,
+    .subscription-info h2 {
+        font-size: 1.2em;
+    }
+
+    .success-stories p,
+    .search-matching p,
+    .safety-privacy p,
+    .subscription-info p {
+        font-size: 1em;
+    }
+
+    .privacy-policy,
+    .profile-tips,
+    .communication-tips{
+        margin-top: 15px;
+    }
+
+    .safety-tips h3,
+    .privacy-policy h3,
+    .profile-tips h3,
+    .communication-tips h3,
+    .date-tips h3,
+    .premium-features h3,
+    .subscription-info h3 {
+        font-size: 1.2em;
+    }
+
+    .safety-tips ul,
+    .privacy-policy ul,
+    .profile-tips ul,
+    .communication-tips ul,
+    .date-tips ul,
+    .premium-features ul,
+    .subscription-info ul {
+        margin-left: 15px;
+    }
+
+    .subscription-info a {
+        font-size: 0.9em;
+    }
+}
+li{
+    color: white;
+}
+h3{
+    color: red;
+}
